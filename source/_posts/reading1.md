@@ -40,7 +40,7 @@ categories: [Recommendation]
 
 ### My possible solution
 
-同样抓住两个领域的共享用户，从信息领域（rating matrix）中通过model-based filtering（当然可以选择更为优秀的NNMF、NCF方法），学习到信息领域下 $\mathcal{I}$ 用户的向量表示 $\vec{u}$ 和物品的表示 $\vec{p}$ 在社交领域 $\mathcal{S}$，这里面的用户 $\vec{u}\_s$ 可以表示为他在信息领域有信息的朋友的向量表示的（加权）平均，形式化可以表示为:
+同样抓住两个领域的共享用户，从信息领域（rating matrix）中通过model-based filtering（当然可以选择更为优秀的NNMF、NCF方法），学习到信息领域下 $\mathcal{I}$ 用户的向量表示 $\vec{u}$ 和物品的表示 $\vec{p}$。在社交领域 $\mathcal{S}$，这里面的用户 $\vec{u}\_s$ 可以表示为他在信息领域有信息的朋友的向量表示的（加权）平均，形式化可以表示为:
 $$
 \vec{u\_s} = \sum\_j w\_{js} \times \vec{u\_j} \text{ for all } u\_j \in \mathcal{I} \cap \mathcal{S} \text{ and } u\_j \text{ is a friend of } u\_s \text{ in } \mathcal{S}
 $$
