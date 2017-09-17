@@ -1,5 +1,5 @@
 ---
-title: about
+title: 
 date: 2016-10-11 17:13:45
 ---
 
@@ -14,6 +14,9 @@ Qiu Fengyu's research interests include natural language processing and text min
 * **Data Mining**: mining source codes, representing codes and computing similarities between codes ang natural languages
 * **Recommender Systems**: combining multivariate and heterogeneous source of data to recommend codes to users in social networks
 * **Sentiment Analysis**: deeper understanding of natural languages in social media
+
+### Teaching Assistant
+* Compilers: Principles, Techniques, and Tools. (For undergraduate students, Spring 2017)
 
 ### Internship
 * 2015.07-2015.08, Senior Java Programmer (Trainee), [Auto-Linked (Shanghai)](http://www.auto-linked.cn/)
