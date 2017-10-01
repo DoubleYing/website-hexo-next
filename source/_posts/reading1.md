@@ -10,6 +10,8 @@ categories: [Recommendation]
 
 会议信息：SIGIR 2017，链接：http://dl.acm.org/citation.cfm?id=3080771
 
+<!-- more -->
+
 ### Abstract
 网络中存在用户-物品的交互信息，而用户之间的交互称为社交信息，两者是异构的。我们可以通过横跨两者的共同用户建立桥梁，完成从信息领域到社交领域用户的物品推荐。现有的跨领域推荐系统中，所有的数据属性都是同构的，或者是完全重叠的。据此，本文提出了一个神经网络社交协同排序算法（Neural Social Collaborative Ranking, NSCR)，通过桥梁用户把两个异构数据之间“串联”起来。
 
