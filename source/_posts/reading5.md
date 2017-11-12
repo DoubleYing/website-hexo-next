@@ -1,6 +1,6 @@
 ---
 title: Session-based Recommendations with Recurrent Neural Networks
-date: 2017-11-21 23:00:00
+date: 2017-11-11 23:00:00
 tags: [Recommender Systems, RNN, Session]
 categories: [Recommendation] 
 ---
