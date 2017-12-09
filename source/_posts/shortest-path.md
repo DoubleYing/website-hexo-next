@@ -3,7 +3,7 @@ title: Algorithm - 图的最短路径算法
 date: 2014-11-05
 description: 图的经典算法，除了 DFS 和 BFS 之外，最短路径（Shortest Path）也是很重要的类别，并且与最小生成树（MST）中的 Prim 算法、Kruskal 算法也有千丝万缕的联系，可以用贪心策略解决...
 categories: Algorithm
-tags: [Graph, Shortest Path]
+tags: [Graph]
 ---
 
 随着算法教学进度的推进，虽然关于图论的专题只开了头，讲了 DFS 和 BFS...
