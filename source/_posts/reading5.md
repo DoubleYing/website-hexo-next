@@ -78,7 +78,9 @@ Accepted by ICLR 2016，文章链接：https://arxiv.org/abs/1511.06939
 
 2. TOP1，对于正样本 $i$ 和负样本 $j$，正样本的相对排序（化归到 [0,1] 区间） 是 $$\dfrac{1}{N\_s}\cdot \sum\limits\_{j=1}^{N\_s}\mathbb{I}(\hat{r}\_{s,j}>\hat{r}\_{s,i})$$
 
-   最后的损失 $$L\_s = \dfrac{1}{N\_s}\cdot \sum\limits\_{j=1}^{N\_s}\sigma(\hat{r}\_{s,j}>\hat{r}\_{s,i}) + \sigma(\hat{r}\_{s,j}^2)$$
+   最后的损失使用 sigmoid 函数来模拟指示函数 $\mathbb{I}(\cdot)$
+
+    $$L\_s = \dfrac{1}{N\_s}\cdot \sum\limits\_{j=1}^{N\_s}\sigma(\hat{r}\_{s,j} -\hat{r}\_{s,i}) + \sigma(\hat{r}\_{s,j}^2)$$
 
 ### 实验
 
