@@ -33,7 +33,7 @@ Qiu Fengyu's research interests include natural language processing and text min
 
 ### Contact
 #### E-mail
-<a href="mailto:qiufengyu1024@gmail.com">qiufengyu1024@gmail.com</a>(universal) or <a href="mailto:qiufy@nlp.nju.edu.cn">qiufy@nlp.nju.edu.cn</a>(campus)
+<a href="mailto:mrqiufengyu@gmail.com">mrqiufengyu@gmail.com</a> (universal) or <a href="mailto:qiufy@nlp.nju.edu.cn">qiufy@nlp.nju.edu.cn</a>(campus)
 #### Correspondence
 Qiu Fengyu（邱丰羽）
 Nanjing University, Xianlin Campus, 163 Xianlin Avenue, Qixia District, Nanjing 210023, China
